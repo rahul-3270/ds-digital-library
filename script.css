@@ -2655,3 +2655,278 @@ a:focus-visible {
         animation-duration: 0.01ms !important;
     }
 }
+
+/* ===== FINAL RED BLACK BLUE YELLOW THEME ===== */
+
+:root {
+    --red: #ff1744;
+    --black: #101014;
+    --blue: #1677ff;
+    --yellow: #ffd600;
+    --white: #ffffff;
+}
+
+/* Login page */
+.login-page {
+    background: linear-gradient(135deg, #101014, #10264a, #350b18) !important;
+}
+
+.login-container {
+    background: #181820 !important;
+    border: 1px solid var(--blue) !important;
+}
+
+.login-left {
+    background: linear-gradient(145deg, #101014, #172b50, #a50024) !important;
+}
+
+.login-right {
+    background: #f4f5f8 !important;
+}
+
+.login-card h2 {
+    color: #101014 !important;
+}
+
+.login-btn {
+    background: linear-gradient(135deg, #ff1744, #c9002b) !important;
+    color: white !important;
+}
+
+/* Dashboard */
+.dashboard-page {
+    background: #101014 !important;
+    color: white !important;
+}
+
+/* Sidebar */
+.sidebar {
+    background: #15151b !important;
+    border-right: 2px solid #1677ff !important;
+}
+
+.sidebar-logo h3 {
+    color: #ffd600 !important;
+}
+
+.sidebar-logo span {
+    color: #cbd5e1 !important;
+}
+
+.nav-item {
+    color: #e5e7eb !important;
+}
+
+.nav-item:hover {
+    background: #1677ff !important;
+    color: white !important;
+}
+
+.nav-item.active {
+    background: linear-gradient(120deg, #ff1744, #b90028) !important;
+    color: white !important;
+}
+
+/* Top bar */
+.topbar {
+    background: #181820 !important;
+    border-bottom: 2px solid #1677ff !important;
+}
+
+.topbar-title h2 {
+    color: #ffd600 !important;
+}
+
+.topbar-title p,
+.topbar-profile span {
+    color: #cbd5e1 !important;
+}
+
+/* Main hero section */
+.hero-section {
+    background: linear-gradient(120deg, #101014, #123a75, #a50024) !important;
+    border: 1px solid #1677ff !important;
+}
+
+.hero-text h1,
+.hero-text h1 span {
+    color: #ffd600 !important;
+}
+
+.hero-text p {
+    color: #ffffff !important;
+}
+
+/* Headings */
+.section-heading h2,
+.page-title h1,
+.ai-container h1,
+.details-card h2,
+.profile-card h2 {
+    color: #ffd600 !important;
+}
+
+.page-title span,
+.lab-number {
+    color: #ff1744 !important;
+}
+
+/* Cards */
+.stat-card,
+.lab-card,
+.tool-card,
+.resource-card,
+.profile-card,
+.details-card,
+.ai-chat {
+    background: #1b1b24 !important;
+    color: white !important;
+    border: 1px solid #30303d !important;
+    border-top: 3px solid #1677ff !important;
+}
+
+.stat-card p,
+.lab-card p,
+.tool-card p,
+.resource-card p,
+.profile-card p,
+.ai-container > p {
+    color: #d1d5db !important;
+}
+
+/* Learning module cards */
+.module-purple,
+.purple-card {
+    background: linear-gradient(135deg, #171721, #8b0020) !important;
+}
+
+.module-blue,
+.blue-card {
+    background: linear-gradient(135deg, #101014, #155eef) !important;
+}
+
+.module-green,
+.green-card {
+    background: linear-gradient(135deg, #101014, #243b60) !important;
+}
+
+.orange-card,
+.pink-card {
+    background: linear-gradient(135deg, #171721, #a50024) !important;
+}
+
+/* Buttons */
+button,
+.primary-btn,
+.module-btn,
+.view-btn,
+.resource-card button,
+.ai-input button {
+    background: #ff1744 !important;
+    color: white !important;
+    border: 1px solid #ff1744 !important;
+    border-radius: 8px !important;
+}
+
+button:hover,
+.primary-btn:hover,
+.module-btn:hover,
+.view-btn:hover,
+.resource-card button:hover,
+.ai-input button:hover {
+    background: #ffd600 !important;
+    color: #101014 !important;
+    border-color: #ffd600 !important;
+}
+
+/* Links */
+a {
+    color: #58a6ff;
+}
+
+a:hover {
+    color: #ffd600;
+}
+
+/* Student ID card */
+.sidebar-id-card {
+    background: linear-gradient(145deg, #101014, #153a79, #a50024) !important;
+    border: 1px solid #ffd600 !important;
+}
+
+/* Profile and details */
+.large-profile,
+.topbar-profile img {
+    border-color: #ff1744 !important;
+}
+
+.student-badge {
+    background: #ffd600 !important;
+    color: #101014 !important;
+}
+
+.detail-item {
+    background: #252530 !important;
+}
+
+.detail-item span,
+.detail-item strong {
+    color: #ffffff !important;
+}
+
+.faculty-box {
+    background: #20202b !important;
+    border: 1px solid #1677ff !important;
+}
+
+.faculty-box strong {
+    color: #ffd600 !important;
+}
+
+/* AI assistant */
+.ai-message {
+    background: #252530 !important;
+}
+
+.ai-message strong {
+    color: #ffd600 !important;
+}
+
+.ai-message p {
+    color: #ffffff !important;
+}
+
+/* Footer and scrollbar */
+.dashboard-footer {
+    color: #cbd5e1 !important;
+    border-top-color: #1677ff !important;
+}
+
+::-webkit-scrollbar-track {
+    background: #101014;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #1677ff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ff1744;
+}
+
+/* Hover effect */
+.stat-card:hover,
+.lab-card:hover,
+.tool-card:hover,
+.resource-card:hover {
+    border-color: #ffd600 !important;
+    transform: translateY(-4px);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+    .sidebar {
+        background: #15151b !important;
+    }
+}
