@@ -2655,7 +2655,7 @@ a:focus-visible {
         animation-duration: 0.01ms !important;
     }
 }
-
+```css
 /* ===== FINAL RED BLACK BLUE YELLOW THEME ===== */
 
 :root {
@@ -2930,3 +2930,144 @@ a:hover {
         background: #15151b !important;
     }
 }
+
+/* ===== WHITE, RED, BLUE & YELLOW THEME ===== */
+
+:root {
+    --white: #ffffff;
+    --red: #e60023;
+    --blue: #155eef;
+    --yellow: #ffd600;
+    --text: #202124;
+}
+
+/* Main background */
+body,
+.dashboard-page {
+    background: var(--white) !important;
+    color: var(--text) !important;
+}
+
+/* Navigation */
+.sidebar,
+.sidebar nav {
+    background: var(--blue) !important;
+    border-right: 3px solid var(--yellow) !important;
+}
+
+.nav-item {
+    color: var(--white) !important;
+}
+
+.nav-item:hover,
+.nav-item.active {
+    background: var(--red) !important;
+    color: var(--white) !important;
+}
+
+/* Top navigation bar */
+.topbar {
+    background: var(--white) !important;
+    border-bottom: 3px solid var(--blue) !important;
+}
+
+/* Headings */
+h1, h2, h3,
+.section-heading,
+.page-title h1,
+.topbar-title h2 {
+    color: #b88600 !important;
+}
+
+/* Hero section */
+.hero-section {
+    background: var(--white) !important;
+    border: 2px solid var(--blue) !important;
+}
+
+.hero-text h1,
+.hero-text h1 span {
+    color: #b88600 !important;
+}
+
+.hero-text p {
+    color: var(--text) !important;
+}
+
+/* Cards */
+.stat-card,
+.lab-card,
+.module-card,
+.big-module-card,
+.tool-card,
+.resource-card,
+.profile-card,
+.details-card {
+    background: var(--white) !important;
+    color: var(--text) !important;
+    border: 2px solid var(--blue) !important;
+    box-shadow: 0 3px 10px #00000012 !important;
+}
+
+.stat-card p,
+.lab-card p,
+.module-card p,
+.resource-card p {
+    color: #444444 !important;
+}
+
+/* Buttons */
+button,
+.primary-btn,
+.module-btn,
+.view-btn,
+.login-btn,
+.resource-card button {
+    background: var(--red) !important;
+    color: var(--white) !important;
+    border: 2px solid var(--red) !important;
+    border-radius: 8px !important;
+}
+
+button:hover,
+.primary-btn:hover,
+.module-btn:hover,
+.view-btn:hover,
+.login-btn:hover {
+    background: var(--yellow) !important;
+    color: #202124 !important;
+    border-color: var(--blue) !important;
+}
+
+/* Links and highlights */
+a {
+    color: var(--blue);
+}
+
+a:hover {
+    color: var(--red);
+}
+
+.student-badge,
+.lab-number,
+.topic-tags span {
+    background: var(--yellow) !important;
+    color: #202124 !important;
+}
+
+/* Inputs */
+input,
+textarea,
+select {
+    background: var(--white) !important;
+    color: var(--text) !important;
+    border: 1px solid var(--blue) !important;
+}
+
+/* Footer */
+.dashboard-footer {
+    background: var(--white) !important;
+    color: #444444 !important;
+    border-top: 2px solid var(--blue) !important;
+}
+
